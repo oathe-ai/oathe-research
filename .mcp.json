@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "arxiv-latex": {
+      "command": "uv",
+      "args": ["run", "--directory", "${CLAUDE_PLUGIN_ROOT}/mcp/arxiv-latex-mcp", "server/main.py"]
+    },
+    "semantic-scholar": {
+      "command": "uv",
+      "args": ["run", "--with", "httpx", "--with", "mcp", "${CLAUDE_PLUGIN_ROOT}/mcp/semanticscholar-MCP-Server/semantic_scholar_server.py"],
+      "env": {
+        "SEMANTIC_SCHOLAR_API_KEY": "${SEMANTIC_SCHOLAR_API_KEY:-}"
+      }
+    }
+  }
+}

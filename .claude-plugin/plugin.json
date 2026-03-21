@@ -1,0 +1,9 @@
+{
+  "name": "oathe-research",
+  "version": "0.1.3",
+  "description": "AI Co-Scientist Debate Plugin — orchestrates multi-agent debates on arxiv papers to generate, challenge, and evolve research hypotheses",
+  "author": {
+    "name": "Oathe"
+  },
+  "keywords": ["research", "debate", "arxiv", "hypothesis", "co-scientist"]
+}
