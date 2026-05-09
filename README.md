@@ -1,6 +1,6 @@
 # Oathe Research -- AI Co-Scientist Debate Plugin
 
-Oathe Research is a Claude Code plugin that orchestrates multi-agent debates on arxiv papers to generate, challenge, and evolve research hypotheses. It implements the AI Co-Scientist pipeline: ingest literature, generate hypotheses, run structured debates between agents, evolve the strongest ideas, and synthesize final outputs.
+Oathe Research is a Claude Code plugin that orchestrates multi-agent debates on arxiv papers to generate, challenge, and evolve research hypotheses. Inspired by Google's AI Co-Scientist paper: ingest literature, generate hypotheses, run structured debates between agents, evolve the strongest ideas, and synthesize final outputs.
 
 ## Prerequisites
 
